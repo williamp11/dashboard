@@ -1,5 +1,6 @@
 import './App.css';
 import { Grid } from '@mui/material';
+import HeaderUI from './components/HeaderUI';
 
 function App() {
     return (
@@ -8,8 +9,9 @@ function App() {
 
 
             {/* Encabezado */}
-            <Grid size={{ xs: 12, md: 12 }}>Elemento: Encabezado</Grid>
-
+            <Grid size={{ xs: 12, md: 12 }}>
+                <HeaderUI />
+            </Grid>
             {/* Alertas */}
             <Grid size={{ xs: 12, md: 12 }}>Elemento: Alertas</Grid>
 
